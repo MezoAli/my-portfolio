@@ -4,13 +4,15 @@ import Moutaz from "../../public/image.jpeg";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
+import HireMe from "@/components/HireMe";
+import LightBulb from "../../public/light-bulb.svg";
 
 export default function Home() {
 	return (
 		<main className="flex items-center w-full text-dark min-h-screen">
 			<HomeLayout className="pt-0">
 				<div className="flex items-center justify-between w-full">
-					<div className="w-1/2">
+					<div className="w-2/5">
 						<Image
 							src={Moutaz}
 							alt="Moutaz Ali"
@@ -61,6 +63,10 @@ export default function Home() {
 					</div>
 				</div>
 			</HomeLayout>
+			<HireMe />
+			<div className="absolute right-8 bottom-8 inline-block w-24">
+				<Image src={LightBulb} alt="light-bulb" className="h-auto w-full" />
+			</div>
 		</main>
 	);
 }
