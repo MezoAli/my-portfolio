@@ -1,6 +1,6 @@
 import React from "react";
 
-function HomeLayout({ children, className }) {
+function Layout({ children, className }) {
 	return (
 		<div className={`w-full h-full bg-light z-0 p-32 ${className}`}>
 			{children}
@@ -8,4 +8,4 @@ function HomeLayout({ children, className }) {
 	);
 }
 
-export default HomeLayout;
+export default Layout;
