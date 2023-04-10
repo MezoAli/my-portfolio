@@ -4,6 +4,7 @@ import React, { useEffect, useRef } from "react";
 import { motion, useInView, useMotionValue, useSpring } from "framer-motion";
 import Image from "next/image";
 import MoutazAli from "../../../public/image.jpeg";
+import Skills from "@/components/Skills";
 
 const AnimatedNumbers = ({ value }) => {
 	const ref = useRef();
@@ -52,7 +53,7 @@ function About() {
 					>
 						Passion Fuel Perpose !
 					</motion.h2>
-					<div className="grid grid-cols-8 gap-16 w-full">
+					<div className="grid grid-cols-8 gap-16 w-full mb-8">
 						<div className="col-span-3 flex flex-col justify-start items-start">
 							<h2 className="text-dark/75 uppercase mb-4 text-lg font-bold">
 								Biography
@@ -110,6 +111,7 @@ function About() {
 							</div>
 						</div>
 					</div>
+					<Skills />
 				</Layout>
 			</main>
 		</>
