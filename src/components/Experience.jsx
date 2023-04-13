@@ -77,6 +77,14 @@ function Experience() {
 						address="Egypt (Remote)"
 						work="I have developing a HR managment system along with the Back-end developers with all features including creating branchs,departments,employees with all CRUD opeartions and assigning tasks and check in and out from work and vacations and download reports for the employees"
 					/>
+					<Details
+						company="Viatris"
+						companyLink="https://www.viatris.com/en"
+						position="Oncology Key Account Manager"
+						time="Jan.2018 - now"
+						address="Egypt"
+						work="Responsible for promoting the company products in Upper Egypt,negeoting with the key accounts for avilability of our products in the accounts and marketing our products to all potenial customers"
+					/>
 				</ul>
 			</div>
 		</div>
