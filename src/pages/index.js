@@ -42,7 +42,7 @@ export default function Home() {
 						>
 							As a skilled front-end developer, I am dedicated to turning ideas
 							into innovative web applications. Explore my latest projects and
-							articles, showcasing my expertise in React.js and Next.js .
+							articles, showcasing my expertise in React.js and Next.js.
 						</motion.p>
 						<div className="flex items-center self-start">
 							<Link
